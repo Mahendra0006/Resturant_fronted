@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f0f0;
+}
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img {
+    width: 100px;
+    height: 45px;
+    object-fit: cover;
+    padding-left: 10px;
+}
+.header nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+}
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+.header .login {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.header .login a {
+    color: white;
+    text-decoration: none;
+    background-color: #d9534f;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+.offer-section {
+    background-color: #f7f7f7;
+    padding-top: 205px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://img.freepik.com/premium-vector/food-social-media-banner-promotion-facebook-cover-design-template_598921-66.jpg?uid=R154457803&ga=GA1.1.581392267.1731150994&semt=ais_hybrid");
+}
+.offer-section h1 {
+    font-size: 72px;
+    color: #b0b0b0;
+    margin: 0;
+}
+.offer-section button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    margin-top: 175px;
+    cursor: pointer;
+    font-size: 8px;
+}
+.menu-section {
+    background-color: #f3f0f0;
+    text-align: center;
+}
+.menu-section h2 {
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+.menu-section h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #d9534f;
+    margin: 10px auto 0;
+}
+.best-seller {
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    margin: 10px 30px 50px 30px;
+    background-color: #ece7e7d6;
+}
+.best-seller h3 {
+    padding: 5px 0px;
+    margin: 10px 0;
+    text-align: left;
+    position: relative;
+}
+.best-seller .view-all {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 10px;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 30px;
+}
+.product {
+    background-color: white;
+    margin: 10px 10px;
+    padding: 15px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 30%;
+    border-radius: 5px;
+}
+.product img {
+    width: 100%;
+    height: 90px;
+    background-color: #e0e0e0;
+}
+.product h4 {
+    font-size: 12px;
+    margin: 8px 0;
+    color: #d9534f;
+}
+.product p {
+    font-size: 10px;
+    color: #666;
+}
+.product .price {
+    font-size: 13px;
+    color: #d9534f;
+}
+.product .price del {
+    color: #999;
+    margin-right: 5px;
+}
+.button-section{
+    background-color: #333;
+    /* height: 30px; */
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1px 10px;
+    margin-top: 0px;
+    cursor: pointer;
+    border-radius: 2px;
+}
